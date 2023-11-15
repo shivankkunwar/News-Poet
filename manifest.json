@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "News Poet",
+    "version": "1.0",
+    "description": "Changes news headlines into poetic rhymes",
+    "action":{
+        "default_popup":"main.html",
+        "default_icon": "Rhymer.png"
+    },
+    "icon": {
+        "16": "Rhymer.png",
+        "48": "Rhymer.png",
+        "128": "Rhymer.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://*.thehindu.com/*"], 
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

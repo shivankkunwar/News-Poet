@@ -2,10 +2,12 @@
 
 News Poet is a Chrome extension that turns newspaper headlines into rhymes.
 
+![demo](https://github.com/shivankkunwar/News-Poet/blob/main/rhyme.gif)
 ## Features
 
 - Changes the headlines of newspaper sites to rhymes.
 - Easy to use: loads as the website loads.
+
 
 ## Installation
 
